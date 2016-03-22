@@ -1,0 +1,6 @@
+[user]
+    name = dependablecomputinglab
+    email = dependablecomputinglab@gmail.com
+[core]
+    #   Preserve File Permission
+    fileMode = true
