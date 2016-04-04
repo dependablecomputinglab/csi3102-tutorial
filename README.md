@@ -47,11 +47,11 @@ $ ~/csi3102-tutorial/gem5-helper.sh
 ##STEP3: Build gem5
 How to download gem5 source code?
 ```sh
-$ git clone https://github.com/uart/gem5-mirror.git
+$ git clone https://github.com/gem5/gem5
 ```
 
 How to build gem5?
-See gem5 official page or [our tutorial file](http://dclab.yonsei.ac.kr/csi3102/gem5-tutorial.pdf)
+See [gem5 official website](http://gem5.org) or [our tutorial file](http://dclab.yonsei.ac.kr/csi3102/gem5-tutorial.pdf)
 
 ##STEP4: Run your benchmark on gem5
 We use MiBench for example. Among all MiBench benchmarks, we will use:
