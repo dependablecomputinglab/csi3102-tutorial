@@ -68,11 +68,11 @@ $ scons build/MIPS/gem5.opt
 
 ##STEP4: Run your benchmark on gem5
 ####STEP4-1: Sample Run
-- Command: **$ <_gem5 binary_> <_config_> -c <_benchmark_>**
+- Command: **$ build/<_isa_>/<_binary_> <_config_> -c <_benchmark_>**
 
 For example, if you build gem5 for ARM ISA, run:
 ```sh
-./build/ARM/gem5.opt configs/example/se.py -c tests/test-progs/hello/bin/arm/linux/hello
+$ ./build/ARM/gem5.opt configs/example/se.py -c tests/test-progs/hello/bin/arm/linux/hello
 ```
 
 ####STEP4-2: Run MiBench
