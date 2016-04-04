@@ -24,7 +24,8 @@ You may see gem5 official website: [http://gem5.org](http://gem5.org)
 - If you don't know how to setup linux, see: [How to setup Linux?](http://dclab.yonsei.ac.kr/csi3102/how-to-setup-linux.pdf)
 
 **memory + storage > 2GiB**
-- If memory < 2GiB, you have to use swap file to build gem5
+- If memory < 2GiB, you have to use swap file to build gem5 <br />
+  See: [http://www.cyberciti.biz/faq/linux-add-a-swap-file-howto/](http://www.cyberciti.biz/faq/linux-add-a-swap-file-howto/)
 - If memory + storage < 2GiB, there is no way to build gem5
 
 ##STEP1: Install git
