@@ -46,7 +46,12 @@ How to build gem5?
 See gem5 official page or [our tutorial file](http://dclab.yonsei.ac.kr/csi3102/gem5-tutorial.pdf)
 
 ##STEP4: Run your benchmark on gem5
-We use MiBench for example. 
+We use MiBench for example. Among all MiBench benchmarks, we will use:
+- automotive/basicmath
+- automotive/qsort
+- network/dijkstra
+- telecom/FFT
+
 Download MiBench with git:
 ```sh
 $ git clone https://github.com/embecosm/mibench
