@@ -1,5 +1,5 @@
 #CSI3102 Tutorial
-This repository is made to help students in CSI3102 course in Yonsei university.
+This repository is made to help students in CSI3102 course in Yonsei university. &nbsp;
 We will guide you to do project with gem5.
 
 ##OVERVIEW: How to setup gem5?
@@ -63,7 +63,8 @@ $ scons build/MIPS/gem5.opt
 ```
 
 ##STEP4: Run your benchmark on gem5
-We use MiBench for example. Among all MiBench benchmarks, we will use:
+We use MiBench for example. &nbsp;
+Among all MiBench benchmarks, we will use:
 - automotive/basicmath
 - automotive/qsort
 - network/dijkstra
