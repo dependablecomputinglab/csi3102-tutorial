@@ -6,6 +6,9 @@
 - Download gem5 with git & Build gem5
 - Run your benchmark on gem5
 
+##What is gem5?
+gem5 is ISA simulator. You may see the key paper: [The gem5 simulator](http://dl.acm.org/citation.cfm?id=2024718)
+
 ##System Requirement
 **memory + storage > 2GiB**
 - If memory < 2GiB, you have to use swap file to build gem5
