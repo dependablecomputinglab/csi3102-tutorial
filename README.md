@@ -36,23 +36,23 @@ $ sudo yum install git
 ```
 
 ##STEP2: Setup prerequisites
-###How to download this repository?
+####How to download this repository?
 ```sh
 $ git clone https://github.com/dependablecomputinglab/csi3102-tutorial.git ~/csi3102-tutorial
 ```
 
-###How to use the script?
+####How to use the script?
 ```sh
 $ ~/csi3102-tutorial/gem5-helper.sh
 ```
 
 ##STEP3: Build gem5
-###How to download gem5 source code?
+####How to download gem5 source code?
 ```sh
 $ git clone https://github.com/gem5/gem5
 ```
 
-###How to build gem5?
+####How to build gem5?
 - Command: **$ scons build/<*isa*>/<*binary*>**
 - Supported ISA: ARM, ALPHA, MIPS, SPARC, POWER, X86
 - Supported Binaries: gem5.debug, gem5.opt, gem5.fast, gem5.prof
