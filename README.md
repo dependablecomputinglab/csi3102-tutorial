@@ -35,7 +35,7 @@ $ git clone https://github.com/uart/gem5-mirror.git
 ```
 
 How to build gem5?
-: See gem5 official page
+See gem5 official page or [our tutorial file](http://dclab.yonsei.ac.kr/csi3102/gem5-tutorial.pdf)
 
 ##STEP4: Run your benchmark on gem5
 We use MiBench for example. 
