@@ -17,6 +17,8 @@ You may see the key paper: [The gem5 simulator](http://dl.acm.org/citation.cfm?i
 
 You may see gem5 official website: [http://gem5.org](http://gem5.org)
 
+We uploaded [our tutorial file](http://dclab.yonsei.ac.kr/csi3102/gem5-tutorial.pdf) to help you, also.
+
 ##System Requirement
 **memory + storage > 2GiB**
 - If memory < 2GiB, you have to use swap file to build gem5
@@ -50,8 +52,14 @@ How to download gem5 source code?
 $ git clone https://github.com/gem5/gem5
 ```
 
-How to build gem5?
-See [gem5 official website](http://gem5.org) or [our tutorial file](http://dclab.yonsei.ac.kr/csi3102/gem5-tutorial.pdf)
+How to build gem5? &nbsp;
+- Command: **$ scons build/<*isa*>/<*binary*>**
+- Supported ISA: ARM, ALPHA, MIPS, SPARC, POWER, X86
+- Supported Binaries: gem5.debug, gem5.opt, gem5.fast, gem5.prof
+For example, if you want to build gem5.opt for MIPS architecture,
+```sh
+$ scons build/MIPS/gem5.opt
+```
 
 ##STEP4: Run your benchmark on gem5
 We use MiBench for example. Among all MiBench benchmarks, we will use:
