@@ -8,8 +8,8 @@
 
 ##System Requirement
 **memory + storage > 2GiB**
-
-If your memory > 2GiB, you have to use swap file to build gem5
+- If memory < 2GiB, you have to use swap file to build gem5
+- If memory + storage < 2GiB, there is no way to build gem5
 
 ##STEP1: Install git
 If you use Ubuntu,
