@@ -6,6 +6,10 @@
 - Download gem5 with git & Build gem5
 - Run your benchmark on gem5
 
+##System Requirement
+**memory + storage > 2GiB**
+If your memory > 2GiB, you have to use swap file to build gem5
+
 ##STEP1: Install git
 If you use Ubuntu,
 ```sh
