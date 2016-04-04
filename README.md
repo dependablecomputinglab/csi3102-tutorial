@@ -17,11 +17,11 @@ You may see the key paper: [The gem5 simulator](http://dl.acm.org/citation.cfm?i
 
 You may see gem5 official website: [http://gem5.org](http://gem5.org)
 
-We uploaded [our tutorial file](http://dclab.yonsei.ac.kr/csi3102/gem5-tutorial.pdf) to help you, also.
+<!-- We uploaded [our tutorial file](http://dclab.yonsei.ac.kr/csi3102/gem5-tutorial.pdf) to help you, also.-->
 
 ##System Requirement
 **Linux**
-If you don't know how to setup linux, see: [How to setup Linux?](http://dclab.yonsei.ac.kr/csi3102/how-to-setup-linux.pdf)
+- If you don't know how to setup linux, see: [How to setup Linux?](http://dclab.yonsei.ac.kr/csi3102/how-to-setup-linux.pdf)
 
 **memory + storage > 2GiB**
 - If memory < 2GiB, you have to use swap file to build gem5
