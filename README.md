@@ -1,14 +1,14 @@
 #CSI3102 Tutorial
-This repository is made to help students in CSI3102 course in Yonsei university. &nbsp;
+This repository is made to help students in CSI3102 course in Yonsei university. <br />
 We will guide you to do project with gem5.
 
 ##OVERVIEW: How to setup gem5?
-- Install git
-- Setup prerequistes for gem5
+- STEP1: Install git
+- STEP2: Setup prerequistes for gem5
   - Download this repository using git
   - Use the script in this repository to isntall prerequisites for gem5
-- Download gem5 with git & Build gem5
-- Run your benchmark on gem5
+- STEP3: Download gem5 with git & Build gem5
+- STEP4: Run your benchmark on gem5
 
 ##What is gem5?
 gem5 is ISA simulator.
@@ -63,7 +63,7 @@ $ scons build/MIPS/gem5.opt
 ```
 
 ##STEP4: Run your benchmark on gem5
-We use MiBench for example. &nbsp;
+We use MiBench for example. <br />
 Among all MiBench benchmarks, we will use:
 - automotive/basicmath
 - automotive/qsort
