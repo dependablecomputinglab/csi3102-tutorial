@@ -8,6 +8,7 @@
 
 ##System Requirement
 **memory + storage > 2GiB**
+
 If your memory > 2GiB, you have to use swap file to build gem5
 
 ##STEP1: Install git
