@@ -67,15 +67,23 @@ $ scons build/MIPS/gem5.opt
 ```
 
 ##STEP4: Run your benchmark on gem5
-####STEP4-1: Sample Run
+####Sample Run
 - Command: **$ build/<_isa_>/<_binary_> <_config_> -c <_benchmark_>**
+- Outputs are generated in _m5out/_
 
 For example, if you build gem5 for ARM ISA, run:
 ```sh
 $ ./build/ARM/gem5.opt configs/example/se.py -c tests/test-progs/hello/bin/arm/linux/hello
 ```
 
-####STEP4-2: Run MiBench
+####Important Options
+
+- **-n <_NUM_CPUs_>**
+- **--cpu-type=<_CPU\_TYPE_>**
+- **--caches** : Enable caches
+
+
+####Run MiBench
 In project 2 and 3, we will use:
 - automotive/basicmath
 - automotive/qsort
