@@ -1,4 +1,8 @@
-#OVERVIEW: How to setup gem5?
+#CSI3102 Tutorial
+This repository is made to help students in CSI3102 course in Yonsei university.
+We will guide you to do project with gem5.
+
+##OVERVIEW: How to setup gem5?
 - Install git
 - Setup prerequistes for gem5
   - Download this repository using git
