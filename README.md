@@ -1,10 +1,10 @@
 #OVERVIEW: How to setup gem5?
-* Install git
-* Setup prerequistes for gem5
-**Download this repository using git
-**Use the script in this repository to isntall prerequisites for gem5
-* Download gem5 with git & Build gem5
-* Run your benchmark on gem5
+- Install git
+- Setup prerequistes for gem5
+  - Download this repository using git
+  - Use the script in this repository to isntall prerequisites for gem5
+- Download gem5 with git & Build gem5
+- Run your benchmark on gem5
 
 ##STEP1: Install git
 If you use Ubuntu,
