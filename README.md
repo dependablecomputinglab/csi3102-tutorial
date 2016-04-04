@@ -24,9 +24,9 @@ You may see gem5 official website: [http://gem5.org](http://gem5.org)
 - If you don't know how to setup linux, see: [How to setup Linux?](http://dclab.yonsei.ac.kr/csi3102/how-to-setup-linux.pdf)
 
 **memory + storage > 2GiB**
-- If memory < 2GiB, you have to use swap file to build gem5 <br />
+- If memory < 2GiB, you have to use swap file to build gem5. <br />
   See: [http://www.cyberciti.biz/faq/linux-add-a-swap-file-howto/](http://www.cyberciti.biz/faq/linux-add-a-swap-file-howto/)
-- If memory + storage < 2GiB, there is no way to build gem5
+- If memory + storage < 2GiB, there is no way to build gem5.
 
 ##STEP1: Install git
 If you use Ubuntu,
@@ -67,8 +67,16 @@ $ scons build/MIPS/gem5.opt
 ```
 
 ##STEP4: Run your benchmark on gem5
-We use MiBench for example. <br />
-Among all MiBench benchmarks, we will use:
+####STEP4-1: Sample Run
+- Command: **$ <_gem5 binary_> <_config_> -c <_benchmark_>**
+
+For example, if you build gem5 for ARM ISA, run:
+```sh
+./build/ARM/gem5.opt configs/example/se.py -c tests/test-progs/hello/bin/arm/linux/hello
+```
+
+####STEP4-2: Run MiBench
+In project 2 and 3, we will use:
 - automotive/basicmath
 - automotive/qsort
 - network/dijkstra
@@ -78,3 +86,5 @@ Download MiBench with git:
 ```sh
 $ git clone https://github.com/embecosm/mibench
 ```
+
+And, DO IT YOURSELF :D
