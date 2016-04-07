@@ -61,9 +61,9 @@ $ git clone https://github.com/gem5/gem5
 - Supported ISA: ARM, ALPHA, MIPS, SPARC, POWER, X86
 - Supported Binaries: gem5.debug, gem5.opt, gem5.fast, gem5.prof
 
-For example, if you want to build gem5.opt for MIPS architecture,
+For example, if you want to build gem5.opt for ARM architecture,
 ```sh
-$ scons build/MIPS/gem5.opt
+$ scons build/ARM/gem5.opt
 ```
 
 ##STEP4: Run your benchmark on gem5
@@ -75,6 +75,9 @@ For example, if you build gem5 for ARM ISA, run:
 ```sh
 $ ./build/ARM/gem5.opt configs/example/se.py -c tests/test-progs/hello/bin/arm/linux/hello
 ```
+
+Then, the simulation statistics are saved as file _m5out/stats.txt_.
+See sample stat file which is made by the command above: [Sample _m5out/stats.txt_](http://dclab.yonsei.ac.kr/csi3102/stats.txt)
 
 ####Important Options
 
