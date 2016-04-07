@@ -63,7 +63,7 @@ $ git clone https://github.com/gem5/gem5
 
 For example, if you want to build gem5.opt for ARM architecture,
 ```sh
-$ scons build/ARM/gem5.opt
+~/gem5$ scons build/ARM/gem5.opt
 ```
 
 ##STEP4: Run your benchmark on gem5
@@ -73,7 +73,7 @@ $ scons build/ARM/gem5.opt
 
 For example, if you build gem5 for ARM ISA, run:
 ```sh
-$ ./build/ARM/gem5.opt configs/example/se.py -c tests/test-progs/hello/bin/arm/linux/hello
+~/gem5$ ./build/ARM/gem5.opt configs/example/se.py -c tests/test-progs/hello/bin/arm/linux/hello
 ```
 
 If you execute the command above, you will see:
