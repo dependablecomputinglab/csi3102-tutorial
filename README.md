@@ -76,6 +76,9 @@ For example, if you build gem5 for ARM ISA, run:
 $ ./build/ARM/gem5.opt configs/example/se.py -c tests/test-progs/hello/bin/arm/linux/hello
 ```
 
+If you execute the command above, you will see:
+![gem5 sample run success](http://dclab.yonsei.ac.kr/csi3102/gem5-sample-run-success.PNG)
+
 Then, the simulation statistics are saved as file _m5out/stats.txt_. <br />
 Here is sample stat file which is made by the command above: [_m5out/stats.txt_](http://dclab.yonsei.ac.kr/csi3102/stats.txt)
 
