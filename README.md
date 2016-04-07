@@ -53,7 +53,7 @@ $ ~/csi3102-tutorial/gem5-helper.sh
 ##STEP3: Build gem5
 ####How to download gem5 source code?
 ```sh
-$ git clone https://github.com/gem5/gem5
+~$ git clone https://github.com/gem5/gem5
 ```
 
 ####How to build gem5?
@@ -97,7 +97,7 @@ In project 2 and 3, we will use:
 
 Download MiBench with git:
 ```sh
-$ git clone https://github.com/embecosm/mibench
+~$ git clone https://github.com/embecosm/mibench
 ```
 
 And, DO IT YOURSELF :D
