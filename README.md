@@ -29,6 +29,10 @@ or
 
 In the shell prompt above, we execute command ___cd gem5___ in home directory(_~_), and then execute command ___pwd___ in '_~/gem5_'.
 
+####NOTE
+- We will use notation '$ ___shell command___' if the command works in any directory.
+- We will use notation '_working directory_$ ___shell command___' if the working directory matters.
+
 ##What is gem5?
 gem5 is ISA simulator.
 
