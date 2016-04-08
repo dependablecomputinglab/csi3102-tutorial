@@ -10,11 +10,11 @@ We will guide you to do project with gem5.
 - STEP3: Download gem5 with git & Build gem5
 - STEP4: Run your benchmark on gem5
 
-##Before Start: Shell Prompt Notation
+##Before Start: Appearance of Shell Prompt
 Normally, shell prompt looks like:
-- $ _shell command_
-- _working directory_$ _shell command_
-- _user_@_host_:_working directory_$ _shell command_
+- $ ___shell command___
+- _working directory_$ ___shell command___
+- _user_@_host_:_working directory_$ ___shell command___
 
 For example, 
 
@@ -23,7 +23,11 @@ For example,
 ~/gem5$ pwd
 ```
 
-This means execute '___cd gem5___' in home directory(_~_), and then execute '___pwd___' command in '_~/gem5_'.
+or
+
+![](http://dclab.yonsei.ac.kr/csi3102/shell-prompt.PNG)
+
+In the shell prompt above, we execute command ___cd gem5___ in home directory(_~_), and then execute command ___pwd___ in '_~/gem5_'.
 
 ##What is gem5?
 gem5 is ISA simulator.
