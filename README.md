@@ -10,6 +10,20 @@ We will guide you to do project with gem5.
 - STEP3: Download gem5 with git & Build gem5
 - STEP4: Run your benchmark on gem5
 
+##Before Start: Shell Prompt Notation
+- $ _shell command_
+- _working directory_$ _shell command_
+- _user_@_host_:_working directory_$ _shell command_
+
+For example, 
+
+```sh
+~$ cd gem5
+~/gem5$ pwd
+```
+
+This means execute 'cd gem5' in home directory(~), and then execute 'pwd' command.
+
 ##What is gem5?
 gem5 is ISA simulator.
 
