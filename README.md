@@ -103,24 +103,3 @@ If you execute the command above, you will see:
 ![gem5 sample run success](http://dclab.yonsei.ac.kr/csi3102/gem5-sample-run-success.PNG)
 
 And, the simulation statistics are saved as file [_m5out/stats.txt_](http://dclab.yonsei.ac.kr/csi3102/stats.txt)
-
-####Important Options
-
-- **-n <_NUM_CPUs_>**
-- **--cpu-type=<_CPU\_TYPE_>**
-- **--caches** : Enable caches
-
-
-####Run MiBench
-In project 2 and 3, we will use:
-- automotive/basicmath
-- automotive/qsort
-- network/dijkstra
-- telecom/FFT
-
-Download MiBench with git:
-```sh
-~$ git clone https://github.com/embecosm/mibench
-```
-
-And, DO IT YOURSELF :D
