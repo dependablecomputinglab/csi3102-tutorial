@@ -76,6 +76,7 @@ $ ~/csi3102-tutorial/gem5-helper.sh
 ##STEP3: Build gem5
 ####How to download gem5 source code?
 ```sh
+$ cd ~
 ~$ git clone https://github.com/gem5/gem5
 ```
 
@@ -86,6 +87,7 @@ $ ~/csi3102-tutorial/gem5-helper.sh
 
 For example, if you want to build gem5.opt for ARM architecture,
 ```sh
+$ cd ~/gem5
 ~/gem5$ scons build/ARM/gem5.opt
 ```
 
@@ -96,6 +98,7 @@ For example, if you want to build gem5.opt for ARM architecture,
 
 For example, if you build gem5 for ARM ISA, run:
 ```sh
+$ cd ~/gem5
 ~/gem5$ ./build/ARM/gem5.opt configs/example/se.py -c tests/test-progs/hello/bin/arm/linux/hello
 ```
 
