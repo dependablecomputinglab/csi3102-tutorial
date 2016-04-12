@@ -3,12 +3,13 @@ This repository is made to help students in CSI3102 course in Yonsei university.
 We will guide you to do project with gem5.
 
 ##OVERVIEW: How to setup gem5?
-- STEP1: Install git
-- STEP2: Setup prerequistes for gem5
-  - Download this repository using git
-  - Use the script in this repository to isntall prerequisites for gem5
-- STEP3: Download gem5 with git & Build gem5
-- STEP4: Run your benchmark on gem5
+- Before Start
+    - Introduction to shell prompt
+    - What is _gem5_?
+    - System Requirement
+- STEP1: Setup prerequistes for gem5
+- STEP2: Download & Build gem5
+- STEP3: Run your benchmark on gem5
 
 ##Before Start: Appearance of Shell Prompt
 Normally, shell prompt looks like:
@@ -51,25 +52,15 @@ You may see gem5 official website: [http://gem5.org](http://gem5.org)
   See: [http://www.cyberciti.biz/faq/linux-add-a-swap-file-howto/](http://www.cyberciti.biz/faq/linux-add-a-swap-file-howto/)
 - If memory + storage < 2GiB, there is no way to build gem5.
 
-##STEP1: Install git
-If you use Ubuntu,
-```sh
-$ sudo apt-get install git
-```
-
-If you use CentOS or RHEL,
-```sh
-$ sudo yum install git
-```
-
-##STEP2: Setup prerequisites
+##STEP1: Setup prerequisites
 ####How to install prerequisites for _gem5_?
 If you use Ubuntu, just execute:
 ```sh
-$ sudo apt-get install -y build-essential g++ zlib1g-dev scons m4 swig python-dev
+$ sudo apt-get install -y git build-essential g++ zlib1g-dev scons m4 swig python-dev
 ```
 
-##STEP3: Build gem5
+If you use other distro of linux, google it. :D
+##STEP2: Download & Build gem5
 ####How to download gem5 source code?
 ```sh
 $ cd ~
@@ -87,7 +78,7 @@ $ cd ~/gem5
 ~/gem5$ scons build/ARM/gem5.opt
 ```
 
-##STEP4: Run your benchmark on gem5
+##STEP3: Run your benchmark on gem5
 ####Sample Run
 - Command: **$ build/<_isa_>/<_binary_> <_config_> -c <_benchmark_>**
 - Outputs are generated in _m5out/_
