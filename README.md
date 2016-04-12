@@ -63,14 +63,10 @@ $ sudo yum install git
 ```
 
 ##STEP2: Setup prerequisites
-####How to download this repository?
+####How to install prerequisites for _gem5_?
+If you use Ubuntu, just execute:
 ```sh
-$ git clone https://github.com/dependablecomputinglab/csi3102-tutorial.git ~/csi3102-tutorial
-```
-
-####How to use the script?
-```sh
-$ ~/csi3102-tutorial/gem5-helper.sh
+$ sudo apt-get install -y build-essential g++ zlib1g-dev scons m4 swig python-dev
 ```
 
 ##STEP3: Build gem5
