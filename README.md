@@ -56,6 +56,8 @@ You may see _gem5_ official website: [http://gem5.org](http://gem5.org)
 ####How to install prerequisites for _gem5_?
 If you use Ubuntu, just execute:
 ```sh
+$ sudo apt-get update
+$ sudo apt-get upgrade
 $ sudo apt-get install -y git build-essential g++ zlib1g-dev scons m4 swig python-dev
 ```
 
