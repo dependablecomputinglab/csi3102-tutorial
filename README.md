@@ -58,7 +58,7 @@ If you use Ubuntu, just execute:
 ```sh
 $ sudo apt-get update
 $ sudo apt-get upgrade
-$ sudo apt-get install -y git build-essential g++ zlib1g-dev scons m4 swig python-dev
+$ sudo apt-get install -y git build-essential g++ zlib1g-dev scons m4 swig python-dev python-six libboost-dev
 ```
 
 If you use other distro of linux, google it. :D
@@ -77,6 +77,7 @@ $ cd ~
 For example, if you want to build gem5.opt for ARM architecture,
 ```sh
 $ cd ~/gem5
+~/gem5$ git checkout 2f3c467
 ~/gem5$ scons build/ARM/gem5.opt
 ```
 
